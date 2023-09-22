@@ -1,45 +1,65 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Portafolio</title>
+    <title>Portfolio</title>
 </head>
 
 <body>
     <header>
-        <h1>Mi Portafolio</h1>
-        <h2>Elkin Steven Hamón Sánchez</h2>
-        <p>Desarrollador Web</p>
+        <div class="my_portfolio"><a href="https://ehamons.github.io/Portafolio-Elkin/">
+            <h1 class="titulo_principal">My Portfolio</h1>
+            <h2 class="nombre">Elkin Steven Hamón Sánchez</h2></a>
+        </div>
+        
     </header>
 
-    <section id="proyectos">
-        <article>
-            <h3>Proyecto 1</h3>
-            <p>Descripción del proyecto 1.</p>
-            <ul>
-                <li>Tecnología 1</li>
-                <li>Tecnología 2</li>
-                <li>Tecnología 3</li>
-            </ul>
-            <img src="proyecto1.jpg" alt="Proyecto 1">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO1" frameborder="0"
-                allowfullscreen></iframe>
-        </article>
+    <main></main>
 
+    <section id="Introduction">
+        <h2>Introduction</h2>
+        <p>Welcome, I'm a Economy and Back-End Web programming student which enjoys technology, videogames and reading, my objectives are to improve my skills and expand my job opportunities</p>
+    </section>
+
+    <section id="habilidades">
+        <h2>Skills</h2>
+        <br>
+        <h3>Languages</h3>
+        <ul>
+            <li>Spanish</li>
+            <li>English</li>
+        </ul>
+        <h3></h3>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>R</li>
+            <li>STATA</li>
+            <li>Excel</li>
+        </ul>
+    </section>
+
+    <section id="proyectos">
+        <h2>Projects</h2>
         <article>
-            <h3>Proyecto 2</h3>
-            <p>Descripción del proyecto 2.</p>
-            <ul>
-                <li>Tecnología 1</li>
-                <li>Tecnología 2</li>
-                <li>Tecnología 3</li>
-            </ul>
-            <img src="proyecto2.jpg" alt="Proyecto 2">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO2" frameborder="0"
-                allowfullscreen></iframe>
+            <h3><a href="https://ehamons.github.io/Biografia-AdaLovelace/">Biografía de Ada Lovelace</a></h3>
+            <p>In this project I used diverse HTML text tags, semantic HTML and in a presentation of Ada Lovelace, the first computer programmer.</p>
+
+            <img src="proyecto1.jpg" alt="Ada Lovelace Project">
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/qCSNVF0eQaw?si=DMqg-3M3fe8N7qAv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </article>
+        <article>
+            <section></section>
+            <h3>Películas y series favoritas</h3>
+            <p>In this project I used semantic HTML, tables and anchor tags to show an exposition of some of my favorites movies and series and the streaming platforms which has the content avaiable to watch them</p>
+
+            <img src="proyecto2.jpg" alt="Películas y series favoritas Project">
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/SjVFCsBPzWU?si=rXvDQ8FZiEfAx031" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </article>
 
         <article>
@@ -56,20 +76,8 @@
         </article>
     </section>
 
-    <section id="habilidades">
-        <h2>Habilidades</h2>
-        <ul>
-            <li>Inglés</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>R</li>
-            <li>STATA</li>
-            <li>Excel</li>
-        </ul>
-    </section>
-
     <section id="contacto">
-        <h2>Contacto</h2>
+        <h2>Contact me</h2>
         <form>
             <label for="nombre">Nombre:</label>
             <input type="text" id="nombre" name="nombre" required>

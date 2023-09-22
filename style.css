@@ -1,4 +1,9 @@
 /* Estilos globales */
+* {
+    margin: 0;
+    padding: 0;
+  }
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -8,14 +13,30 @@ body {
 
 header {
     background-color: #a30000;
-    color: #fff;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
     padding: 20px;
+    text-align: center;
+    color: #fff;
 }
 
-h1 {
+.my_portfolio{
     margin: 0;
-    font-size: 36px;
+    padding: 0;
+}
+
+.my_portfolio a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.titulo_principal{
+    font-size: 2rem;
+}
+
+.nombre{
+    margin: .2rem;
+    font-size: 1.5rem;
 }
 
 h2 {
